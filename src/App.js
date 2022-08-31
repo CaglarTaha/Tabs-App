@@ -62,7 +62,7 @@ const {company,dates,duties,title} = item[value]
   <div className='left'>
   {item.map ((items,index)=>{
     return <div key={items.id}>
-      <button onClick={()=>setValue(index)} >{items.company}</button>
+      <button className={index === value ? "btn-active":""} onClick={()=>setValue(index)} >{items.company}</button>
     </div>
    })}
   </div>

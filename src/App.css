@@ -117,7 +117,8 @@ width: 60px;
 }
 
 
-button:focus{
+
+.btn-active{
   color: rgb(10, 191, 191);
 }
 
